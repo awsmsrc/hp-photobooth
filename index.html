@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="./app.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <video id="photobooth" autoplay muted></video>
+    <br />
+    <p>
+    Process Version: <script>document.write(process.version)</script>
+    </p>
+    <p>
+    Electron Version: <script>document.write(process.versions['electron'])</script>.
+    </p>
+    <p>
+      <a id="tools" href="#">Open Tools</a>
+    </p>
+    <script>
+      require('./app.js')
+    </script>
+  </body>
+</html>
+

@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#photobooth {
+  width: 480px;
+  height: 360px;
+}
+
+#photobooth:active {
+  -webkit-transform:scale(1.3);
+}
